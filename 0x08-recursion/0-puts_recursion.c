@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
-*This function is going to print a string then
-*followed by a new line
+*_puts_recursion - write prints the string
+*@s: an input string to be printed
 */
 void _puts_recursion(char *s)
 {
