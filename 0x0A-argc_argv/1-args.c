@@ -1,13 +1,20 @@
 #include <stdio.h>
-#include <libgen.h>
+#include <stdlib.h>
 
 /**
-*main - prints the number of arguments
-*@argc: contains number of arguments
-*@artgv: contain the list of arguments
-*/
-int main(int argc, char *argv[])
+ * main - entry point
+ *
+ * Description: prints the name of the function
+ *
+ * @argc: amount of arguments passed through the program
+ * @argv: pointer that contains the arrays of the arguments
+ *
+ * Return: 0
+ */
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-printf("%d\n", argc );
-return 0;
+	int i = argc - 1;
+
+	printf("%d\n", i);
+	return (0);
 }

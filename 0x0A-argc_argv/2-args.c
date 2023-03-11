@@ -1,16 +1,23 @@
 #include <stdio.h>
-#include <libgen.h>
+#include <stdlib.h>
 
 /**
-*main - prints the number of arguments it recieves
-*@argc: contains number of arguments
-*@artgv: contain the list of arguments
-*/
+ * main - entry point
+ *
+ * Description: prints all the arguments separated by a new line
+ *
+ * @argc: amount of arguments passed through the program
+ * @argv: pointer that contains the arrays of the arguments
+ *
+ * Return: 0
+ */
 int main(int argc, char *argv[])
 {
-    for(int i = 0; i <= argc; i++)
-    {
-        printf("%s\n", argv[i]);
-    }
-return 0;
+	int i;
+
+	for (i = 0; i < argc; i++)
+	{
+		printf("%s\n", argv[i]);
+	}
+	return (0);
 }
