@@ -1,9 +1,9 @@
 #include <stdlib.h>
 
 /**
-*arr - initializes the array
-*@size:
-*@c:
+*create_array - initializes the array
+*@size: this is the size
+*@c:This is the string
 */
 
 char *create_array(unsigned int size, char c)
