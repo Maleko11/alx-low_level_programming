@@ -2,7 +2,7 @@
 
 /**
 *create_array - initializes the array
-*@arr - is value being returned
+*arr - is value being returned
 *@size: this is the size
 *@c:This is the string
 */
@@ -13,13 +13,13 @@ char *arr = (char *) malloc(size * sizeof(char));
 unsigned int i;
 if (size == 0)
 {
-return NULL;
+return (NULL);
 }
 
 
 if (arr == 0)
 {
-return NULL;
+return (NULL);
 }
 
 for (i = 0; i < size; i++)
@@ -27,6 +27,6 @@ for (i = 0; i < size; i++)
 arr[i] = c;
 }
 
-return arr;
+return (arr);
 
 }
