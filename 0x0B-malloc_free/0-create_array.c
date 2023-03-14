@@ -1,10 +1,11 @@
 #include <stdlib.h>
 
 /**
-*create_array - initializes the array
+*create_array - initializes the array it returns an arr
 *arr - is value being returned
 *@size: this is the size
 *@c:This is the string
+*Return: arr
 */
 
 char *create_array(unsigned int size, char c)
