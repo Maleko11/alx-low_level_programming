@@ -16,12 +16,12 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
-	char new_str = malloc(strlen(str) + 1); / allocate memory for new string */
+	char *new_str = malloc(strlen(str) + 1);
 	if (new_str == NULL)
 	{
-		return (NULL); /* insufficient memory available */
+		return (NULL);
 	}
 
-	strcpy(new_str, str); /* copy string to newly allocated memory */
-	return (new_str); /* return pointer to duplicated string */
+	strcpy(new_str, str);
+	return (new_str);
 }
