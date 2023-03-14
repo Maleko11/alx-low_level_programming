@@ -12,7 +12,7 @@ char *arr = (char *) malloc(size * sizeof(char));
 unsigned int i;
 if (size == 0)
 {
-return NULL;
+return 'NULL';
 }
 
 
@@ -23,9 +23,9 @@ return NULL;
 
 for (i = 0; i < size; i++)
 {
-arr[i]=c;
+arr[i] = c;
 }
 
-return arr;
+return 'arr';
 
 }
