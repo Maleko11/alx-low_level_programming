@@ -2,6 +2,7 @@
 
 /**
 *create_array - initializes the array
+*@arr - is value being returned
 *@size: this is the size
 *@c:This is the string
 */
