@@ -6,7 +6,7 @@
 *@c:
 */
 
-char *create_array(unasigned int size, char c)
+char *create_array(unsigned int size, char c)
 {
 if(size == NULL)
 {
@@ -18,7 +18,7 @@ if(arr == NULL){
 return 0;
 }
 
-for(unasigned int i = 0; i < size; i++)
+for(unsigned int i = 0; i < size; i++)
 {
 arr[i]=c;
 }
